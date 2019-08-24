@@ -1,0 +1,424 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body { 
+    margin: 0;
+    padding: 0;
+    font-family:  "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #fff;
+   
+    height: 2500px;
+}
+.head{
+    height: 40px;
+    background: #333;
+    position: relative;
+    color: #b0b0b0;
+    }
+.head .container {
+    width: 1226px;
+    margin: 0 auto;
+    position: relative;
+}
+.container::before,.container::after,.clearfix::before,.clearfix::after {
+    content: "";
+    display: table;
+}
+.container::after,.clearfix::after {
+    clear: both;
+}
+.nav {
+    float: left;
+    width: 587.09px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    font-size: 0;
+    }
+
+.head a {
+    color: #b0b0b0;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+   }
+   
+.head a:hover {color: white;}
+
+.head>.container>.nav>span {
+      margin: 0 0.5em;
+      color: #424242;
+      font-family: sans-serif;
+      font-size: 12px;
+    }
+
+.cart,.info {
+    float: right;
+}
+.cart{
+    position: relative;
+    height:40px ; 
+    margin-left: 15px;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #424242;
+
+}
+.cart a:hover{
+    color: #ff6700;
+    background-color: #fff;
+}
+.cart a{
+    display: block;
+    width: 120px;
+    }
+.cart span {margin-left: 4px;}
+.cart i {
+    margin-right: 4px;
+    font-size: 20px;
+    line-height: 20px;
+    vertical-align: -4px;
+}
+.info {
+    width: 142.48px;
+    line-height: 40px;
+    font-size: 0;
+    height: 40px;
+}
+.info a{
+    float: left;
+    padding:0 5px;
+}
+.info>.sep {
+    float: left;
+    height: 40px;
+    width: 3.24px;
+    color: #424242;
+    
+}
+.info>.message {
+    display: inline-block;
+    padding: 0 10px;
+}
+.info>.message>.dc {
+    margin: 0;
+    padding: 0;
+}
+
+ 
+.site-header {
+    height: 100px;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    font-size: 14px;
+    position: relative;
+}
+.site-header >.container {
+    height: 100px;
+    width: 1226px;
+    margin: 0 auto;
+}
+.header-logo {
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+}
+
+.header-logo>a {
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    background: url(../img/mi-logo.png) no-repeat 50% 50%;
+    background-color: #ff6700;
+}
+.header-logo .url {
+    float: left;
+    text-indent: -9999em;
+}
+
+.header-nav {
+    float: left;
+    width: 850px;
+    height: 100px;
+    font-size: 16px;
+    
+    
+}
+.header-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 12px 0px 0px 30px;
+    width: 820px;
+    height: 88px;
+    font-size: 0;
+}
+.header-nav>ul>li {
+    display: inline-block;
+    font-size: 16px;
+}
+.header-nav>ul>.nav-category {
+    position: relative;
+    float: left;
+    width: 127px;
+    padding-right: 15px;
+}
+.header-nav>ul>li>a {
+    display: inline-block;
+    padding: 26px 10px 38px;
+}
+.header-nav>ul>li>.list-category {
+    padding: 26px 0px 38px;
+    width: 128px;
+    text-align: right;
+}
+.header-nav a {
+    text-decoration: none;
+    color: #333;
+    
+}
+
+.header-search {
+    float: right;
+    width: 296px;
+    margin-top: 25px;
+}
+.search-form {
+    position: relative;
+    width: 296px;
+    height: 50px;
+}
+.hide {
+    display: none;
+}
+.search-text  {
+    position: absolute;
+    top: 0;
+    right: 51px;
+    width: 223px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 10px;
+    border: 1px solid #e0e0e0;
+    box-sizing: content-box;
+    border:1px solid #eee;
+    outline: 0;
+    font-size: 14px;
+
+}
+.search-btn {
+    position: absolute;
+    width: 52px;
+    height: 50px;
+    line-height: 50px;
+    top: 0;
+    right: 0;
+    border: 1px solid #e0e0e0;
+    outline: 0;
+    padding: 1px 6px;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: #fff;
+}
+.hot-words {
+    position: absolute;
+    top: 14px;
+    right: 62px;
+    text-align: right;
+    font-size: 0;
+    display: block;
+}
+.hot-words a{
+    display: inline-block;
+    background-color: #eee;
+    text-decoration: none;
+    font-size: 12px;
+    color: #757575;
+    margin-left: 5px;
+    padding: 0 5px;
+}
+.search-btn:hover {
+    background-color: #ff6700;
+    color: #fff;
+}
+.seckill {
+    background-color: #f5f5f5;
+}
+.seckill-head {
+    background: url(../img/小米秒杀.jpg) no-repeat 50% 0;
+    height: 170px;
+    margin-top: 18px;
+}
+.seckill-head h1 {
+     text-indent: -9999em;
+}
+.seckill .container .seckill-nav {
+    height: 68px;
+    width: 1226px;
+    background: #414141;
+    margin: 0 auto;
+    margin-top: -68px;
+    margin-bottom: 22px;
+    
+
+}
+.seckill .container .seckill-nav ul {
+    list-style-type: none;
+    font-size: 0;
+    width:100%;
+    height: 100%;
+    padding: 0;
+    
+}
+.seckill .container .seckill-nav ul>li {
+    float: left;
+    width: 20%;
+    font-size: 14px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    cursor: pointer;
+}
+.seckill-nav .active {
+    background-color: #f1393a;
+}
+.seckill-fixed {
+    position: fixed;
+    top: 60px;
+    left: 146.6px;
+}
+.seckill .container .seckill-nav ul>li>a {
+    color: #fff;
+    text-decoration: none;
+}
+.seckill .container .seckill-nav ul>li em {
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 30px;
+    line-height: 1;
+    vertical-align: middle;
+    
+}
+.seckill .container .seckill-nav ul>li span {
+    margin-left: 15px;
+    text-align: left;
+    line-height: 1;
+    vertical-align: middle;
+}
+.seckill-goods {
+    margin: 0 auto;
+    width: 1226px;
+    
+}
+.seckill-goods .active {
+    display: block;
+}
+.seckill-goods ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin-left: -13px;
+}
+.seckill-goods ul li {
+    float: left;
+    width: 400px;
+    height: 190px;
+    margin: 0 0 13px 13px;
+    background-color: #fff;
+}
+.seckill-goods ul li a{
+    text-decoration: none;
+    display: block;
+    width: 400px;
+    height: 179px;
+}
+.seckill-goods ul li img {
+    float: left;
+    width: 190px;
+    height: 190px;
+    background-color: #e9e9e9;
+}
+.pro-con {
+    display: block;
+    margin-left: 210px;
+    padding-top: 30px;
+    height: 179px;
+    width: 180px;
+}
+p {
+    font-size: 12px;
+    padding-bottom: 35px;
+    margin-top: 100px;
+    margin-left: 146.6px;
+}
+.seckill-goods .name {
+    display: block;
+    height: 16px;
+    line-height: 16px;
+    font-size: 16px;
+    color:#333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+.seckill-goods .desc {
+    display: -webkit-box;
+    color:rgba(0,0,0,0.54);
+    margin-top: 7px;
+    line-height: 16px;
+    height: 32px;
+    width: 100%;
+}
+.seckill-goods .process {
+    position: relative;
+}
+.seckill-goods .length {
+    display: block;
+    margin-top: 10px;
+    width: 146px;
+    height: 5px;
+    position: relative;
+    background: red;
+}
+.process em {
+    font-style: normal;
+    position: absolute;
+    right: -180px;
+    top: -10px;
+    color: #333;
+}
+.price {
+    display: block;
+    font-size: 16px;
+    color: #f1393a;
+    margin-top: 14px;
+    line-height: 1;
+}
+.price del{
+    margin-left: 5px;
+    color: #333;
+    font-size: 12px;
+}
+.btn {
+    display: block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    background-color:#f2f2f2 ;
+    color: #b0b0b0;
+    margin-top: 19px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
